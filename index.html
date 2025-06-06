@@ -1,224 +1,212 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dheeraj Vempaty</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dheeraj Vempaty - Senior Data Engineer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #0d47a1;
+      color: white;
+      padding: 5px 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .header-text {
+      max-width: 600px;
+    }
+
+    .animated-tagline {
+      font-family: 'Pacifico', cursive;
+      font-size: 1.5em;
+      font-weight: 400;
+      color: #ffffff;
+      animation: fadeIn 3s infinite alternate;
+      margin-top: 10px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0.3; }
+      to { opacity: 1; }
+    }
+
+    .logos {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .logos img {
+      height: 100px;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h2 {
+      color: #0d47a1;
+      margin-top: 40px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .card {
+      background: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .highlight {
+      color: #0d47a1;
+      font-weight: bold;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      padding: 10px 0;
+    }
+
+    .tool-logos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 15px;
+      margin: 20px 0;
+    }
+
+    .tool-logos img {
+      height: 40px;
+      flex: 1 1 auto;
+      max-width: 100px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #e3e3e3;
+    }
+.gradient {
+  background: linear-gradient(90deg, #4285F4, #34A853);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+  </style>
 </head>
 
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-            <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
-
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Dheeraj</h1>
-		<h2>Data Engineer by Profession </br>
-		Data Addict by Passion |Python|Data Analytics|Data Science</h2>
-            <a href="https://github.com/VempatyDheeraj/vempatydheeraj.github.io/raw/master/Dheeraj_Resume.docx" download="Dheeraj_Resume.docx" class="btn-rounded-white">Download Resume</a>
-        </div>
-        <!-- End #lead-content -->
-
-        <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
-
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                       I have 12+ years of experience in working with Data. </br>
-		    <b>My Tech stack:-</b> </br>
-		<b>ETL tools:</b> Informatica, Talend, Dell Boomi</br>
-		<b>	    Databases:</b> Oracle,GCP BigQuery, Teradata, Postgre, MySQL, HBase</br>
-		<b>	    Query languages:</b> SQL, NoSQL</br>
-		<b>	    Scripting:</b> Unix, Python</br>
-	<b>Visualisation:</b> Looker(GCP), Tableau, matplotlib(Python Library), PowerBI</br>
-	<b>Data Analysis:</b> Pandas,NumPy,matplotlib etc.,. </br>
-<b>IDE's:</b> Anaconda,Jupyter,Spyder </br>
- <!-- <b>Data Science:</b> Supervised(Linear regression,Logistic regression,KNN) </br>  
-&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;	unsupervised(Clustering) -->  </br>
-
-			 I am passionate about Data Engineering & Data Analytics and love producing data-driven business insights.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End #about -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="Jan 2020 – Present">
-                <h3>Data Engineer</h3>
-                <h4>PayPal</h4>
-                <p>
-                	* <b>People DatawareHouse</b> - Built Data solutions for People Analytics & Workforce Planning Teams. </br>
-			* <b>Learning DataMart</b> - Designed & built entire project. Pulling Data using APIs from Linkedin, Udemy, Oreilly, Cornerstone & transforemed it to reprting layer
-		    		and enabled it for reporting to get Learning rate, ROI and other KPIs.</br>
-		    	* <b>OrgVue</b></br>
-		    	* <b>Tax DataMart</b>  New Datamart for Tax reporting (1099K, FATCA, CP2100, etc.,.) and other 
-compliance reporting.</br>
-		    	* <b>Real Estate DataMart</b> Built Mart for deriving insights on buildings/Space utilization, Post 
-Pandemic Hybrid Work Model Analytics</br>
-		    	* <b>Market Insights Tool</b></br>
-                </p>
-            </div>
-
-            
-            <div data-date="Nov 2013 - Dec 2019">
-                <h3>Cognizant Technology Solutions</h3>
-                <h4>ETL Developer/Programmer Analyst</h4>
-                <p>
-			... </br> ...
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>Sathyabama University</h3>
-            <span class="education-date">2009 - 2013</span>
-            <h4>Bachelor of Engineering</h4>
-            <p>
-                Completed my bachelors in 2013.
-            </p>
-        </div>
-        <!-- End .education-block -->
-
-        
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
-    
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>Data Science</li>
-            <li>Data Analytics</li>
-            <li>Data Visualization</li>		
-            <li>Python</li>
-            <li>Pandas</li>
-            <li>SQL</li>
-            <li>Text Analytics</li>
-            <li>Toad</li> 
-            <li>Excel</li>
-            <li>Supervised Learning</li>
-            <li>Unsupervised Learning</li>
-            <li>Hadoop</li>
-            <li>Data Analyst</li>
-            <li>Data Analysis</li>
-            <li>Data Scientist</li>
-            
-        </ul>
-    </div>
-    <!-- End #skills -->
- <div id="projects">
-        <h2 class="projects">Projects</h2>
-	 
-	 <p><a href="/projects">Email-ID Breached or not?</a></p>
+  <header>
+    <div class="header-text">
+      <h1>Dheeraj Vempaty</h1>
+      <p>Senior Data Engineer | Cloud Solutions | BI Automation</p>
+<p class="animated-tagline gradient">Data Engineer by Profession, Data Addict by Passion</p>
 
     </div>
-    	    
-        <!-- End #contact-form -->
-    </div> 
-    <!-- End #contact -->
+    <div class="logos">
+      <img src="https://cdn.iconscout.com/icon/free/png-256/free-google-cloud-logo-icon-download-in-svg-png-gif-file-formats--weather-storage-data-pack-logos-icons-1721675.png?f=webp&w=256" alt="GCP Logo" title="GCP Certified">
+      <img src="https://miro.medium.com/v2/resize:fit:1200/1*T0_akZfhC_BmZNc0znAtdQ.png" alt="GCP Data Engineer" title="Google Cloud Data Engineer">
+      <img src="https://media.licdn.com/dms/image/v2/C5612AQEb9E4YGZZHbA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1618704217252?e=2147483647&v=beta&t=YNkNGteMZyrCYt6xf_iIXlHSDkMxJ8ep06iYxgZgqcY" alt="GCP Architect" title="Google Cloud Architect">
+    </div>
+<a href="https://github.com/VempatyDheeraj/vempatydheeraj.github.io/blob/master/Dheeraj_Vempaty_DE_PayPal_2025.pdf" style="display:inline-block; margin-top:20px; padding:12px 25px; background-color:#00796b; color:white; text-decoration:none; border-radius:5px; font-weight:bold;" target="_blank">Download Resume (PDF)</a></section>
+  </header>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2024 Dheeraj
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End footer -->
+  <section>
+    <h2>About Me</h2>
+    <div class="card">
+      <p>I’m a data-driven problem solver who thrives on transforming complex business challenges into scalable, efficient, and insightful data solutions. With over a decade of hands-on experience, I’ve architected end-to-end pipelines, developed LLM-powered BI tools, and championed real-time analytics platforms at enterprise scale. I bring both technical depth and a passion for enabling strategic decisions through reliable and innovative data platforms.</p>
+    </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+    <h2>Technical Skills & Tools</h2>
+    <div class="tool-logos">
+      <img src="https://cdn.worldvectorlogo.com/logos/google-cloud-1.svg" alt="GCP">
+      <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="Python">
+      <img src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg" alt="Tableau">
+      <img src="https://cdn.worldvectorlogo.com/logos/looker.svg" alt="Looker">
+      <img src="https://image.pngaaa.com/310/320310-middle.png" alt="Airflow">
+      <img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" alt="GitHub">
+      <img src="https://cdn.worldvectorlogo.com/logos/informatica.svg" alt="Informatica">
+    </div>
+
+    <div class="card skills-grid">
+      <div style="margin-bottom: 10px;"><span class="highlight">Cloud:</span> GCP (BigQuery, Looker, DataProc)</div>
+      <div><span class="highlight">ETL:</span> Informatica, SQL, Python, Dell Boomi</div>
+      <div><span class="highlight">BI Tools:</span> Looker, Tableau, SAC</div>
+      <div><span class="highlight">Languages:</span> SQL, Python, Shell</div>
+      <div style="margin-top: 10px;"><span class="highlight">Versioning:</span> GitHub, Autosys, Airflow</div>
+      <div><span class="highlight">Certifications:</span> GCP Data Engineer, Architect</div>
+    </div>
+
+    <h2>Professional Summary</h2>
+    <div class="card">
+      <p>Senior Data Engineer with 12+ years of experience delivering enterprise-scale data solutions across Finance, HR, and Compliance domains. Specialized in scalable pipelines, GCP platforms, and BI automation using Looker & Tableau. Delivered $20M+ cost savings, pioneered LLM-based analytics tools, and enabled data-driven decisions globally.</p>
+    </div>
+
+    <h2>Professional Experience</h2>
+    <div class="card">
+      <h3>PayPal Inc. – Chennai<br><small>Senior Data Engineer | Jan 2020 – Present</small></h3>
+      <ul>
+        <li><strong>Market Insights Tool:</strong> Self-service Looker dashboards for global financial analytics (~80TB daily refresh).</li>
+        <li><strong>LLM-Powered Finance Assistant:</strong> Internal AI bot using OpenAI models, integrated with Looker Extensions, saved 3+ hours/analyst/week.</li>
+        <li><strong>Learning DataMart:</strong> Unified L&D analytics via Airflow and vendor APIs (Udemy, LinkedIn, O'Reilly).</li>
+        <li><strong>Real Estate DataMart:</strong> Enabled hybrid workspace planning, saving ~$20M in vendor costs.</li>
+        <li><strong>People DataWarehouse:</strong> Central source for HR metrics, enhanced hybrid classification and analytics.</li>
+        <li><strong>Tax DataMart:</strong> Migrated 15TB+ legacy data to GCP, automated 1099K, CP2100 processing across platforms.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Cognizant | The Hartford Financial Services<br><small>Data Engineer | Nov 2013 – Jan 2020</small></h3>
+      <ul>
+        <li>Developed full-stack enterprise DWH from ingestion to reporting layers with Oracle/MySQL.</li>
+        <li>Designed dimensional models (SCD Type 1/2, fact tables, star schemas).</li>
+        <li>Created chatbots for insurance workflows using Azure bots.</li>
+        <li>Built Tableau dashboards and optimized batch pipelines (Autosys, Informatica).</li>
+        <li>Improved job SLAs with error recovery, reusable data frameworks, and runtime tuning.</li>
+      </ul>
+    </div>
+
+    <h2>Education</h2>
+    <div class="card">
+      <ul>
+        <li><strong>Sathyabama University, Chennai:</strong> B.E in Electronics & Instrumentation (75%)</li>
+        <li><strong>Sri Vivekananda Jr College, Vijayawada:</strong> Intermediate (87%)</li>
+        <li><strong>City Central High School, Kodad:</strong> SSC (90%)</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Dheeraj Vempaty | <a href="https://github.com/VempatyDheeraj" target="_blank">GitHub</a> | <a href="mailto:vempatydheeraj">Contact</a></p>
+  </footer>
 </body>
 
 </html>
